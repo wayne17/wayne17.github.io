@@ -259,6 +259,150 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/31/gimp/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wayne17">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="朝闻道，夕死可矣！">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/03/31/gimp/" itemprop="url">gimp修图小札</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-31T21:19:49+08:00">
+                2018-03-31
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>###前言</p>
+<blockquote>
+<p>近日，突然有妹子让我帮P一张图，但一想到电脑上没有PS了，只有GIMP（LZ系统是ubuntu16.04），心里有点虚，虽说linux下的GIMP是可以与windows下的Photoshop相媲美的，但关键是不会使啊。但我本着摸索学习的心态，就让她把图发过来试试，要求是这样的：</p>
+</blockquote>
+<blockquote>
+<p>原图：</p>
+</blockquote>
+<blockquote>
+<p>目标图：</p>
+</blockquote>
+<blockquote>
+<p>初看到以为就是很简单的裁剪圆图嘛，但是操作起来发现没那么简单，因为你裁剪后就会发现裁剪后左右两侧是空白的，就是圆图的左右两侧是在原图之外的，没有颜色，于是就开始慢慢摸索……</p>
+</blockquote>
+<blockquote>
+<p>1.先进行画布扩充，点击菜单栏-&gt;图像-&gt;画布大小，为了方便，把画布横向扩展成正方形，更改图层大小选项选择“全部可见图层”，效果如下：</p>
+</blockquote>
+<blockquote>
+<p>2.然后用工具箱里的椭圆选择工具选出所需图像，在点击菜单栏-&gt;图层-&gt;透明-&gt;添加Alpha通道，再选择菜单栏-&gt;选择-&gt;反转，再按delete键，删除周围图像，效果如下：</p>
+</blockquote>
+<blockquote>
+<p>3.然后再点击菜单栏-&gt;工具-&gt;选择工具-&gt;按颜色选择，再点击圆形图像两侧白色区域，再点击工具箱里的颜色拾取工具，拾取图像中间的青色，为后面的油漆桶操作赋色，点击油漆桶填充工具，点击白色区域，用前景色填充选项，将白色填成一致的青色，效果如下：</p>
+</blockquote>
+<blockquote>
+<p>4.处理后发现图像还有一些黑色长条噪点，再用椭圆选择工具选中黑色长条区域，再用油漆桶工具填充即可。最后导出时，手动把后缀名改成png格式，才能实现背景透明。既可得上面的目标图。</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/31/hexo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -554,7 +698,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -767,6 +911,19 @@
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+
+    
 
 
 
