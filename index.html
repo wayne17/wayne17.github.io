@@ -290,7 +290,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-16T22:26:31+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-16T22:47:55+08:00">
                 2018-04-16
               </time>
             
@@ -333,15 +333,15 @@
             <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
 <p>近日，突然有妹子让我帮P一张图，但一想到电脑上没有PS了，只有GIMP（LZ系统是ubuntu16.04），心里有点虚，虽说linux下的GIMP是可以与windows下的Photoshop相媲美的，但关键是不会使啊。但我本着摸索学习的心态，就让她把图发过来试试，要求是这样的：</p>
 </blockquote>
-<p>原图：<img src="/home/wayne17/blog/source/_posts/picture_1.jpeg" alt="picture_1"></p>
-<p>目标图：<img src="/home/wayne17/blog/source/_posts/picture_2.png" alt="picture_2"></p>
+<p>原图：<img src="github.com/wayne17/wayne17.github.io/tree/master/images/gimp_1.jpeg" alt="gimp_1"></p>
+<p>目标图：<img src="github.com/wayne17/wayne17.github.io/tree/master/images/gimp_2.png" alt="gimp_2"></p>
 <p>初看到以为就是很简单的裁剪圆图嘛，但是操作起来发现没那么简单，因为你裁剪后就会发现裁剪后左右两侧是空白的，就是圆图的左右两侧是在原图之外的，没有颜色，于是就开始慢慢摸索……</p>
 <p>1.先进行画布扩充，点击菜单栏-&gt;图像-&gt;画布大小，为了方便，把画布横向扩展成正方形，更改图层大小选项选择“全部可见图层”，效果如下：</p>
-<p><img src="/home/wayne17/blog/source/_posts/picture_3.png" alt="picture_3"></p>
+<p><img src="github.com/wayne17/wayne17.github.io/tree/master/images/gimp_3.png" alt="gimp_3"></p>
 <p>2.然后用工具箱里的椭圆选择工具选出所需图像，在点击菜单栏-&gt;图层-&gt;透明-&gt;添加Alpha通道，再选择菜单栏-&gt;选择-&gt;反转，再按delete键，删除周围图像，效果如下：</p>
-<p><img src="/home/wayne17/blog/source/_posts/picture_4.png" alt="picture_4"></p>
+<p><img src="github.com/wayne17/wayne17.github.io/tree/master/images/gimp_4.png" alt="gimp_4"></p>
 <p>3.然后再点击菜单栏-&gt;工具-&gt;选择工具-&gt;按颜色选择，再点击圆形图像两侧白色区域，再点击工具箱里的颜色拾取工具，拾取图像中间的青色，为后面的油漆桶操作赋色，点击油漆桶填充工具，点击白色区域，用前景色填充选项，将白色填成一致的青色，效果如下：</p>
-<p><img src="/home/wayne17/blog/source/_posts/picture_5.png" alt="picture_5"></p>
+<p><img src="github.com/wayne17/wayne17.github.io/tree/master/images/gimp_5.png" alt="gimp_5"></p>
 <p>4.处理后发现图像还有一些黑色长条噪点，再用椭圆选择工具选中黑色长条区域，再用油漆桶工具填充即可。最后导出时，手动把后缀名改成png格式，才能实现背景透明。既可得上面的目标图。</p>
 
           
