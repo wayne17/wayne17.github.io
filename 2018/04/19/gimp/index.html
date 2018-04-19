@@ -446,11 +446,10 @@
 
           
 
-     
-    <div class="comments" id="vcomments">
+  
+    <div class="comments" id="comments">
     </div>
   
-
 
 
         </div>
@@ -773,19 +772,18 @@
     guest = guest.split(',').filter(item=>{
       return GUEST.indexOf(item)>-1;
     });
-    valine = new Valine({
-        el: '#vcomments',
+    new Valine({
+        el: '#comments' ,
         verify: false,
         notify: false,
         appId: 'PRPaYQrbfq0rzNfSSp3AxNvT-gzGzoHsz',
         appKey: 'bGvKFOBjNlKD6kYrxntQxNch',
         placeholder: 'Just go go',
-        avatar: 'mm',
-        guest_info: GUEST,
-        pageSize: 10,
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
     });
   </script>
-
 
 
   
