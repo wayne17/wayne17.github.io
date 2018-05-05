@@ -473,7 +473,7 @@
 
   
     <div class="comments" id="comments">
-
+     <div id="vcomments"></div>
     </div>
   
 
@@ -771,6 +771,7 @@
       return GUEST.indexOf(item)>-1;
     });
     new Valine({
+    	av: AV,
         el: '#comments' ,
         verify: false,
         notify: false,
